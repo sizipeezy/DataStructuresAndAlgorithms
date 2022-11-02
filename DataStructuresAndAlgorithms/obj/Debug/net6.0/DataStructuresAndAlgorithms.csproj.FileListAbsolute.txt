@@ -1,0 +1,15 @@
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\bin\Debug\net6.0\DataStructuresAndAlgorithms.exe
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\bin\Debug\net6.0\DataStructuresAndAlgorithms.deps.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\bin\Debug\net6.0\DataStructuresAndAlgorithms.runtimeconfig.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\bin\Debug\net6.0\DataStructuresAndAlgorithms.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\bin\Debug\net6.0\DataStructuresAndAlgorithms.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.csproj.AssemblyReference.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.AssemblyInfoInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.AssemblyInfo.cs
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.csproj.CoreCompileInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\refint\DataStructuresAndAlgorithms.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\DataStructuresAndAlgorithms.genruntimeconfig.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\obj\Debug\net6.0\ref\DataStructuresAndAlgorithms.dll
