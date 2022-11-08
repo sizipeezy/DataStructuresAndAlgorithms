@@ -1,19 +1,24 @@
-﻿internal class Program
+﻿using DataStructuresAndAlgorithms;
+
+internal class Program
 {
 
     private static void Main(string[] args)
     {
         var array = new int[] { 4, 2, 7, 1, 3 };
-        var item = 4;
+        
 
         var arr1 = new int[] { 1, 2, 2, 4, 5 };
         var arr2 = new int[] { 0, 2, 4, 6, 8 };
 
         var result = Intersection(arr1, arr2);
 
-        CitiesAndCountries(item);
+        var words = new string[] { "h", "e", "l", "l", "o" };
 
-      
+
+        var Recursion = new Recursion();
+
+        Recursion.CountDown(10);
       
     }
     public static void CitiesAndCountries(int n)
