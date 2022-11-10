@@ -9,6 +9,14 @@
 
     public class Recursion
     {
+        public void DoubleArray(int[] arr, int index)
+        {
+            if (index >= arr.Length)
+                return;
+
+            arr[index] *= 2;
+            DoubleArray(arr, index + 1);
+        }
         public void CountDown(int number)
         {
             if (number <= 0)

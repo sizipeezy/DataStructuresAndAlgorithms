@@ -6,14 +6,13 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        var newHash = new Sets();
-
-        var input = Console.ReadLine();
-        newHash.PartyCounter(input);
 
 
+        var array = new int[] { 1, 2, 3, 4, 5 };
+        var recursion = new Recursion();
+        recursion.DoubleArray(array, 0);
 
-
+        Console.WriteLine(string.Join(", ", array));
 
     }
     public static void CitiesAndCountries(int n)
