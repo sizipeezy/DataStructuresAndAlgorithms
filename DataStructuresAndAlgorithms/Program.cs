@@ -5,15 +5,102 @@ internal class Program
 
     private static void Main(string[] args)
     {
+        CountChars("SoftUni rocks");
+    }
+    public static void CountChars(string input)
+    {
+        var dict = new Dictionary<char, int>();
+        for (int i = 0; i < input.Length; i++)
+        {
+            if (!dict.ContainsKey(input[i]))
+            {
+                dict.Add(input[i], 0);
+            }
 
+            dict[input[i]]++;
+        }
 
+        Console.WriteLine(string.Join(" ", dict));
+    }
+    public static void CalculateEven(int n)
+    {
+        var dict = new Dictionary<int, int>();
+        for (int i = 0; i < n; i++)
+        {
+            int value = int.Parse(Console.ReadLine());
+            if (!dict.ContainsKey(value))
+            {
+                dict.Add(value, 0);
+            }
 
-        var array = new int[] { 1, 2, 3, 4, 5 };
-        var recursion = new Recursion();
-        recursion.DoubleArray(array, 0);
+            dict[value]++;
+        }
 
-        Console.WriteLine(string.Join(", ", array));
+        foreach (var item in dict)
+        {
+            if (item.Value % 2 == 0)
+            {
+                Console.WriteLine(item.Key);
+            }
+        }
+    }
+    public static void PeriodicTable(int n)
+    {
+        SortedSet<string> set = new SortedSet<string>();
+        for (int i = 0; i < n; i++)
+        {
+            var input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            foreach (var item in input)
+            {
+                set.Add(item);
+            }
+        }
 
+        Console.WriteLine(string.Join(" ", set));
+    }
+    public static void SetsOfElements(int n, int b)
+    {
+        var hashset1 = new HashSet<int>(n);
+        var hashset2 = new HashSet<int>(b);
+        int value = 0;
+
+        var length = hashset1.Count() + hashset2.Count();
+        for (int i = 0; i < n; i++)
+        {
+            value = int.Parse(Console.ReadLine());
+            hashset1.Add(value);
+        }
+
+        for (int i = 0; i < b; i++)
+        {
+            value = int.Parse(Console.ReadLine());
+            hashset2.Add(value);
+        }
+
+        var result = hashset1.Intersect(hashset2).ToList();
+
+        Console.WriteLine(string.Join(", ", result));
+
+    }
+    public static void UniqueUsernames(int n)
+    {
+        var HashSet = new HashSet<string>();
+        for (int i = 0; i <= n; i++)
+        {
+            string name = Console.ReadLine();
+            HashSet.Add(name);
+        }
+
+        foreach (var item in HashSet)
+        {
+            Console.WriteLine(item);
+        }
+    }
+    public static void CalculateFactoriel(int n, int i =1, int product = 1)
+    {
+        if (i > n)
+            return;
+        CalculateFactoriel(n, i + 1, product + 1);
     }
     public static void CitiesAndCountries(int n)
     {
