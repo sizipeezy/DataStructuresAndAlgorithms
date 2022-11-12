@@ -5,7 +5,10 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        CountChars("SoftUni rocks");
+        var arr = new int[] { 1, 2, 3, 4 };
+        var recursionClass = new Recursion();
+        recursionClass.MaxArray(arr);
+        recursionClass.FibonnaciNumber(11);
     }
     public static void CountChars(string input)
     {
