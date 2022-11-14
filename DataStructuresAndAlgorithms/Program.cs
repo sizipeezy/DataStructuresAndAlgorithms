@@ -1,14 +1,49 @@
 ﻿using DataStructuresAndAlgorithms;
+using System;
 
 internal class Program
 {
 
     private static void Main(string[] args)
     {
-        var arr = new int[] { 1, 2, 3, 4 };
-        var recursionClass = new Recursion();
-        recursionClass.MaxArray(arr);
-        recursionClass.FibonnaciNumber(11);
+        var arr = new int[] { 0, 5, 2, 1, 6, 3 };
+
+
+       var resultArr =  QuickSort(arr, 0, arr.Length -1 );
+        Console.WriteLine(string.Join(" ", resultArr));
+    }
+
+    public static int[] QuickSort(int[] arr, int leftIndex, int rightIndex)
+    {
+        var i = leftIndex;
+        var j = rightIndex;
+        var pivot = arr[rightIndex];
+        while (i <= j)
+        {
+            while (arr[i] < pivot)
+            {
+                i++;
+            }
+
+            while (arr[j] > pivot)
+            {
+                j--;
+            }
+            if (i <= j)
+            {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                i++;
+                j--;
+            }
+        }
+
+        if (leftIndex < j)
+            QuickSort(arr, leftIndex, j);
+        if (i < rightIndex)
+            QuickSort(arr, i, rightIndex);
+        return arr;
     }
     public static void CountChars(string input)
     {
