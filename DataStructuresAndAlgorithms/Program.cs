@@ -6,13 +6,26 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        var arr = new int[] { 0, 5, 2, 1, 6, 3 };
 
 
-       var resultArr =  QuickSort(arr, 0, arr.Length -1 );
-        Console.WriteLine(string.Join(" ", resultArr));
+        var result = FactorielSimply(5);
+        Console.WriteLine(result);
+      
     }
 
+    public static int FactorielSimply(int number)
+    {
+        if(number == 0)
+        {
+            return 0;
+        }
+        if(number == 1)
+        {
+            return 1;
+        }
+
+        return number * FactorielSimply(number - 1);
+    }
     public static int[] QuickSort(int[] arr, int leftIndex, int rightIndex)
     {
         var i = leftIndex;
