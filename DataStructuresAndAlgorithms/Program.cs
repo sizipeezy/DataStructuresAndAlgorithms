@@ -1,5 +1,6 @@
 ﻿using DataStructuresAndAlgorithms;
 using System;
+using System.Data;
 
 internal class Program
 {
@@ -8,24 +9,34 @@ internal class Program
     {
 
 
-        var result = FactorielSimply(5);
+        var result = FibFunctional(10);
         Console.WriteLine(result);
-      
-    }
+        var result2 = FactorielSimply(5);
+        Console.WriteLine(result2);
 
-    public static int FactorielSimply(int number)
+    }
+    public static void RunFactorial()
     {
-        if(number == 0)
+        for (int i = 1; i < 15; i++)
         {
-            return 0;
+            Console.WriteLine($"{i}! = {FactorielSimply(i):N0}");
         }
-        if(number == 1)
-        {
-            return 1;
-        }
-
-        return number * FactorielSimply(number - 1);
     }
+    public static int FibFunctional(int term) =>
+        term switch
+        {
+             1 => 0,
+             2 => 1,
+             _ => FibFunctional(term - 1) + FibFunctional(term - 2)
+        };
+    public static int FactorielSimply(int number) =>
+        number switch
+        {
+            0 => 0,
+            1 => 1,
+            _ => number * FactorielSimply(number - 1),
+        };
+
     public static int[] QuickSort(int[] arr, int leftIndex, int rightIndex)
     {
         var i = leftIndex;
