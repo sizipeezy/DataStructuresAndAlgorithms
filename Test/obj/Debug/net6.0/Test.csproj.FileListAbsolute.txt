@@ -1,0 +1,12 @@
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\bin\Debug\net6.0\Test.deps.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\bin\Debug\net6.0\Test.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\bin\Debug\net6.0\Test.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\refint\Test.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\Test.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\Test\obj\Debug\net6.0\ref\Test.dll

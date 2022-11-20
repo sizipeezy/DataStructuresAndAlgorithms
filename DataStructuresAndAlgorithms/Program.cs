@@ -9,10 +9,24 @@ internal class Program
     {
 
 
-        var result = FibFunctional(10);
-        Console.WriteLine(result);
-        var result2 = FactorielSimply(5);
-        Console.WriteLine(result2);
+        var test = new GenericScale<int>(2, 2);
+        Console.WriteLine(test.AreEqual());
+
+        var result = GenericArrayCreator.Create(5, "Pesho");
+        int[] integers = GenericArrayCreator.Create(10, 33);
+
+        Console.WriteLine(string.Join(" ", result));
+
+        var box = new BoxOfT<int>();
+
+        
+        box.Add(1);
+        box.Add(2);
+        box.Add(3);
+
+        Console.WriteLine(box.Remove());
+
+        Console.WriteLine(box.Count);
 
     }
     public static void RunFactorial()
