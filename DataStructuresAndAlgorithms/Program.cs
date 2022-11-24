@@ -8,26 +8,32 @@ internal class Program
     private static void Main(string[] args)
     {
 
+        DisplacementVector dv1 = new(3, 5);
+        DisplacementVector dv2 = new(-2, 7);
+        DisplacementVector dv3 = dv1 - dv2;
 
-        var test = new GenericScale<int>(2, 2);
-        Console.WriteLine(test.AreEqual());
+        Console.WriteLine($"({dv1.X}, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
 
-        var result = GenericArrayCreator.Create(5, "Pesho");
-        int[] integers = GenericArrayCreator.Create(10, 33);
+    }
+    public struct DisplacementVector
+    {
+        public int X;
+        public int Y;
 
-        Console.WriteLine(string.Join(" ", result));
+        public DisplacementVector(int initialX, int initialY)
+        {
+            X = initialX;
+            Y = initialY;
+        }
 
-        var box = new BoxOfT<int>();
-
-        
-        box.Add(1);
-        box.Add(2);
-        box.Add(3);
-
-        Console.WriteLine(box.Remove());
-
-        Console.WriteLine(box.Count);
-
+        public static DisplacementVector operator -(
+          DisplacementVector vector1,
+          DisplacementVector vector2)
+        {
+            return new(
+              vector1.X + vector2.X,
+              vector1.Y + vector2.Y);
+        }
     }
     public static void RunFactorial()
     {
@@ -39,9 +45,9 @@ internal class Program
     public static int FibFunctional(int term) =>
         term switch
         {
-             1 => 0,
-             2 => 1,
-             _ => FibFunctional(term - 1) + FibFunctional(term - 2)
+            1 => 0,
+            2 => 1,
+            _ => FibFunctional(term - 1) + FibFunctional(term - 2)
         };
     public static int FactorielSimply(int number) =>
         number switch
@@ -172,7 +178,7 @@ internal class Program
             Console.WriteLine(item);
         }
     }
-    public static void CalculateFactoriel(int n, int i =1, int product = 1)
+    public static void CalculateFactoriel(int n, int i = 1, int product = 1)
     {
         if (i > n)
             return;
@@ -202,8 +208,8 @@ internal class Program
                 dict[continent].Add(country, new List<string>());
                 dict[continent][country].Add(city);
             }
-           
-                dict[continent][country].Add(city);
+
+            dict[continent][country].Add(city);
 
         }
         foreach (var name1 in dict)
