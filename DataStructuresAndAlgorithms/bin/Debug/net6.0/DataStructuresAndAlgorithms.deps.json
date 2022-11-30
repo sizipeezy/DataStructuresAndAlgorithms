@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "DataStructuresAndAlgorithms/1.0.0": {
+      "DataStructuresAndAlgorithms/6.3.12": {
         "runtime": {
           "DataStructuresAndAlgorithms.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "DataStructuresAndAlgorithms/1.0.0": {
+    "DataStructuresAndAlgorithms/6.3.12": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

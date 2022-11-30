@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj": {}
+    "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\WorkingWithUrl\\WorkingWithUrl.csproj": {}
   },
   "projects": {
-    "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj": {
-      "version": "6.3.12",
+    "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\WorkingWithUrl\\WorkingWithUrl.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
-        "projectName": "DataStructuresAndAlgorithms",
-        "projectPath": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms.csproj",
+        "projectUniqueName": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\WorkingWithUrl\\WorkingWithUrl.csproj",
+        "projectName": "WorkingWithUrl",
+        "projectPath": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\WorkingWithUrl\\WorkingWithUrl.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\DataStructuresAndAlgorithms\\obj\\",
+        "outputPath": "E:\\C# Asp.Net Books\\Book Examples Data Structures\\DataStructuresAndAlgorithms\\WorkingWithUrl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

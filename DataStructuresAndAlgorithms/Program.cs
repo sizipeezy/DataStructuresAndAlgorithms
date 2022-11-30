@@ -1,6 +1,9 @@
 ﻿using DataStructuresAndAlgorithms;
 using System;
 using System.Data;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Reflection;
 
 internal class Program
 {
@@ -8,12 +11,69 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        DisplacementVector dv1 = new(3, 5);
-        DisplacementVector dv2 = new(-2, 7);
-        DisplacementVector dv3 = dv1 - dv2;
+        //var url = Console.ReadLine();
 
-        Console.WriteLine($"({dv1.X}, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
+        // if (string.IsNullOrEmpty(url))
+        // {
+        //     url = "https://stackoverflow.com/search?q=securestring";
+        // }
 
+        // Uri uri = new(url);
+
+        // Console.WriteLine(uri.Scheme);
+        // Console.WriteLine(uri.Host);    
+        // Console.WriteLine(uri.Port);
+        // Console.WriteLine(uri.Query);
+        // Console.WriteLine(uri.Fragment);
+        // Console.WriteLine(uri.AbsolutePath);
+
+        // IPHostEntry entry = Dns.GetHostEntry(uri.Host);
+        // Console.WriteLine(entry.HostName);
+        // foreach (var IP in entry.AddressList)
+        // {
+        //     Console.WriteLine($"{ IP.Address} + { IP.AddressFamily}");
+        // }
+
+        // try
+        // {
+        //     Ping ping = new();
+        //     Console.WriteLine("Pinging server. Please wait...");
+        //     PingReply reply = ping.Send(uri.Host);
+        //     Console.WriteLine($"{uri.Host} was pinged and replied: {reply.Status}.");
+        //     if (reply.Status == IPStatus.Success)
+        //     {
+        //         Console.WriteLine("Reply from {0} took {1:N0}ms",
+        //         arg0: reply.Address,
+        //         arg1: reply.RoundtripTime);
+        //     }
+        // }
+        // catch (Exception ex)
+        // {
+        //     Console.WriteLine($"{ex.GetType().ToString()} says {ex.Message}");
+        // }
+
+        Console.WriteLine("Assembly metadata:");
+        Assembly? assembly = Assembly.GetEntryAssembly();
+        if (assembly is null)
+        {
+            Console.WriteLine("Failed to get entry assembly.");
+            return;
+        }
+        Console.WriteLine($" Full name: {assembly.FullName}");
+        Console.WriteLine($" Location: {assembly.Location}");
+        IEnumerable<Attribute> attributes = assembly.GetCustomAttributes();
+        Console.WriteLine($" Assembly-level attributes:");
+        foreach (Attribute a in attributes)
+        {
+            Console.WriteLine(($" {a.GetType()}"));
+        }
+
+        AssemblyInformationalVersionAttribute? version = assembly
+        .GetCustomAttribute<AssemblyInformationalVersionAttribute>();
+        Console.WriteLine($" Version: {version?.InformationalVersion}");
+        AssemblyCompanyAttribute? company = assembly
+        .GetCustomAttribute<AssemblyCompanyAttribute>();
+        Console.WriteLine($" Company: {company?.Company}");
     }
     public struct DisplacementVector
     {
