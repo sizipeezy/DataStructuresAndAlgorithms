@@ -1,0 +1,17 @@
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\WorkingWithSerialization.exe
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\WorkingWithSerialization.deps.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\WorkingWithSerialization.runtimeconfig.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\WorkingWithSerialization.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\WorkingWithSerialization.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.csproj.AssemblyReference.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.AssemblyInfoInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.AssemblyInfo.cs
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.csproj.CoreCompileInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\refint\WorkingWithSerialization.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.genruntimeconfig.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\ref\WorkingWithSerialization.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithSerialization\obj\Debug\net6.0\WorkingWithSerialization.csproj.CopyComplete

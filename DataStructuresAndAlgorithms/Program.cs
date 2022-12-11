@@ -1,79 +1,56 @@
 ﻿using DataStructuresAndAlgorithms;
 using System;
 using System.Data;
+using System.IO;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Reflection;
+using System.Text;
 
 internal class Program
 {
 
     private static void Main(string[] args)
     {
-
-        //var url = Console.ReadLine();
-
-        // if (string.IsNullOrEmpty(url))
-        // {
-        //     url = "https://stackoverflow.com/search?q=securestring";
-        // }
-
-        // Uri uri = new(url);
-
-        // Console.WriteLine(uri.Scheme);
-        // Console.WriteLine(uri.Host);    
-        // Console.WriteLine(uri.Port);
-        // Console.WriteLine(uri.Query);
-        // Console.WriteLine(uri.Fragment);
-        // Console.WriteLine(uri.AbsolutePath);
-
-        // IPHostEntry entry = Dns.GetHostEntry(uri.Host);
-        // Console.WriteLine(entry.HostName);
-        // foreach (var IP in entry.AddressList)
-        // {
-        //     Console.WriteLine($"{ IP.Address} + { IP.AddressFamily}");
-        // }
-
-        // try
-        // {
-        //     Ping ping = new();
-        //     Console.WriteLine("Pinging server. Please wait...");
-        //     PingReply reply = ping.Send(uri.Host);
-        //     Console.WriteLine($"{uri.Host} was pinged and replied: {reply.Status}.");
-        //     if (reply.Status == IPStatus.Success)
-        //     {
-        //         Console.WriteLine("Reply from {0} took {1:N0}ms",
-        //         arg0: reply.Address,
-        //         arg1: reply.RoundtripTime);
-        //     }
-        // }
-        // catch (Exception ex)
-        // {
-        //     Console.WriteLine($"{ex.GetType().ToString()} says {ex.Message}");
-        // }
-
-        Console.WriteLine("Assembly metadata:");
-        Assembly? assembly = Assembly.GetEntryAssembly();
-        if (assembly is null)
+        Console.WriteLine("Encodings");
+        Console.WriteLine("[1] ASCII");
+        Console.WriteLine("[2] UTF-7");
+        Console.WriteLine("[3] UTF-8");
+        Console.WriteLine("[4] UTF-16 (Unicode)");
+        Console.WriteLine("[5] UTF-32");
+        Console.WriteLine("[any other key] Default");
+        // choose an encoding
+        Console.Write("Press a number to choose an encoding: ");
+        ConsoleKey number = Console.ReadKey(intercept: false).Key;
+        Console.WriteLine();
+        Console.WriteLine();
+        Encoding encoder = number switch
         {
-            Console.WriteLine("Failed to get entry assembly.");
-            return;
-        }
-        Console.WriteLine($" Full name: {assembly.FullName}");
-        Console.WriteLine($" Location: {assembly.Location}");
-        IEnumerable<Attribute> attributes = assembly.GetCustomAttributes();
-        Console.WriteLine($" Assembly-level attributes:");
-        foreach (Attribute a in attributes)
+            ConsoleKey.D1 => Encoding.ASCII,
+            ConsoleKey.D2 => Encoding.UTF7,
+            ConsoleKey.D3 => Encoding.UTF8,
+            ConsoleKey.D4 => Encoding.Unicode,
+            ConsoleKey.D5 => Encoding.UTF32,
+            _ => Encoding.Default
+        };
+        // define a string to encode
+        string message = "Café cost: £4.39";
+  
+// encode the string into a byte array
+        byte[] encoded = encoder.GetBytes(message);
+        // check how many bytes the encoding needed
+        Console.WriteLine("{0} uses {1:N0} bytes.",
+        encoder.GetType().Name, encoded.Length);
+        Console.WriteLine();
+        // enumerate each byte
+        Console.WriteLine($"BYTE HEX CHAR");
+        foreach (byte b in encoded)
         {
-            Console.WriteLine(($" {a.GetType()}"));
+            Console.WriteLine($"{b,4} {b.ToString("X"),4} {(char)b,5}");
         }
-
-        AssemblyInformationalVersionAttribute? version = assembly
-        .GetCustomAttribute<AssemblyInformationalVersionAttribute>();
-        Console.WriteLine($" Version: {version?.InformationalVersion}");
-        AssemblyCompanyAttribute? company = assembly
-        .GetCustomAttribute<AssemblyCompanyAttribute>();
-        Console.WriteLine($" Company: {company?.Company}");
+        // decode the byte array back into a string and display it
+        string decoded = encoder.GetString(encoded);
+        Console.WriteLine(decoded);
     }
     public struct DisplacementVector
     {

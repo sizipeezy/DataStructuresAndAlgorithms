@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{F797AA6E-B2BB-420B-9D76-5B880E79B563}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithSerialization", "WorkingWithSerialization\WorkingWithSerialization.csproj", "{8628CE9B-6025-46B2-838D-137988FE6781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{F797AA6E-B2BB-420B-9D76-5B880E79B563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F797AA6E-B2BB-420B-9D76-5B880E79B563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F797AA6E-B2BB-420B-9D76-5B880E79B563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8628CE9B-6025-46B2-838D-137988FE6781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8628CE9B-6025-46B2-838D-137988FE6781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8628CE9B-6025-46B2-838D-137988FE6781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8628CE9B-6025-46B2-838D-137988FE6781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
