@@ -1,0 +1,12 @@
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\bin\Debug\net6.0\MonitoringLib.deps.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\bin\Debug\net6.0\MonitoringLib.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\bin\Debug\net6.0\MonitoringLib.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.csproj.AssemblyReference.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.AssemblyInfoInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.AssemblyInfo.cs
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.csproj.CoreCompileInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\refint\MonitoringLib.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\MonitoringLib.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\MonitoringLib\obj\Debug\net6.0\ref\MonitoringLib.dll

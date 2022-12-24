@@ -1,0 +1,15 @@
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\bin\Debug\net6.0\WorkingWithTasks.exe
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\bin\Debug\net6.0\WorkingWithTasks.deps.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\bin\Debug\net6.0\WorkingWithTasks.runtimeconfig.json
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\bin\Debug\net6.0\WorkingWithTasks.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\bin\Debug\net6.0\WorkingWithTasks.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.csproj.AssemblyReference.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.AssemblyInfoInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.AssemblyInfo.cs
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.csproj.CoreCompileInputs.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\refint\WorkingWithTasks.dll
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.pdb
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\WorkingWithTasks.genruntimeconfig.cache
+E:\C# Asp.Net Books\Book Examples Data Structures\DataStructuresAndAlgorithms\WorkingWithTasks\obj\Debug\net6.0\ref\WorkingWithTasks.dll
